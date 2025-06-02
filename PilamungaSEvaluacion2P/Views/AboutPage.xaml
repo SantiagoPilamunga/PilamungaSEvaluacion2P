@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PilamungaSEvaluacion2P.Views.AboutPage"
              Title="AboutPage">
-    <Grid>
+    <Grid
+        Padding="20"
+        >
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
