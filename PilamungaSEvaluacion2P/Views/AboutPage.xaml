@@ -3,10 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PilamungaSEvaluacion2P.Views.AboutPage"
              Title="AboutPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="0"
+               Grid.Row="0"
+            Text="Nombre: Santiago Pilamunga"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+        <Label Grid.Column="1"
+               Grid.Row="0"
+            Text="Fecha: 02/06/2025"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+        <Label Grid.Column="0"
+               Grid.Row="1"
+            Text="Interese: Videjuegos Tecnologia"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label Grid.Column="1"
+               Grid.Row="1"
+            Text="Version 1.0"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </Grid>
 </ContentPage>
