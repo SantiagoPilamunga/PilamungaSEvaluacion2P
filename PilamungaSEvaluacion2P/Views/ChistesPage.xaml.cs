@@ -1,8 +1,8 @@
 namespace PilamungaSEvaluacion2P.Views;
 
-public partial class NewPage1 : ContentPage
+public partial class ChistesPage : ContentPage
 {
-	public NewPage1()
+	public ChistesPage()
 	{
 		InitializeComponent();
 	}

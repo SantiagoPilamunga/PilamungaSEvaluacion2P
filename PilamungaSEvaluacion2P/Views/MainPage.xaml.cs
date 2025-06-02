@@ -1,4 +1,6 @@
-﻿namespace PilamungaSEvaluacion2P
+﻿using PilamungaSEvaluacion2P.Views;
+
+namespace PilamungaSEvaluacion2P
 {
     public partial class MainPage : ContentPage
     {
@@ -9,16 +11,15 @@
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+
+        private void ChistesBtn_Clicked(object sender, EventArgs e)
         {
-            count++;
+            Navigation.PushAsync(new ChistesPage());
+        }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private void AboutBtn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AboutPage());
         }
     }
 
