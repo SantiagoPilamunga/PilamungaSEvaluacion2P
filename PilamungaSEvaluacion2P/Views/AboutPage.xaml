@@ -6,6 +6,23 @@
     <Grid
         Padding="20"
         >
+        <BoxView 
+                Grid.Row="0" 
+                Grid.Column="0" 
+                Color="Beige" />
+        <BoxView 
+                Grid.Row="0" 
+                Grid.Column="1" 
+                Color="Aqua" />
+        <BoxView 
+                Grid.Row="1" 
+                Grid.Column="0" 
+                Color="Salmon" />
+        <BoxView 
+                Grid.Row="1" 
+                Grid.Column="1" 
+                Color="LimeGreen"
+            />
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -18,7 +35,8 @@
                Grid.Row="0"
             Text="Nombre: Santiago Pilamunga"
             VerticalOptions="Center" 
-            HorizontalOptions="Center"/>
+            HorizontalOptions="Center"
+            />
         <Label Grid.Column="1"
                Grid.Row="0"
             Text="Fecha: 02/06/2025"
