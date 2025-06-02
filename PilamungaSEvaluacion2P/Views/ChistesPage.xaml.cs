@@ -6,4 +6,9 @@ public partial class ChistesPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void OtroChisteBtn_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }
